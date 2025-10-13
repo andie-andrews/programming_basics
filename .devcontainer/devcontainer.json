@@ -3,7 +3,7 @@
 {
 	// Container definition for a Python 3.11 development environment
 	"name": "Python 3.12",
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.12",
+	"image": "mcr.microsoft.com/devcontainers/python:3.12",
 
 	// Custom configuration options
 	"customizations": {
@@ -27,7 +27,7 @@
 	},
 
 	// Use 'onCreateCommand' to run commands once when the container is created
-	"onCreateCommand": "sudo apt update && sudo apt upgrade -y && pip3 install --upgrade pip && pip3 install --user -r requirements.txt",
+	"onCreateCommand": "sudo apt update && sudo apt upgrade -y && pip3 install --upgrade pip && pip3 install --user -r requirements.txt"
 
 	// Use 'postCreateCommand' to run commands once after the container is created
 	//"postCreateCommand": "",
