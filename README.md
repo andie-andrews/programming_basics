@@ -34,7 +34,7 @@ A Vocareum cloud virtual machine is provided to Fullstack students. You can run 
 
 #### Step 1: Download the Notebook
 
-1. From this repositories [home page](https://github.com/gperdrizet/programming_basics) go to the `notebooks` directory
+1. From this repository's [home page](https://github.com/gperdrizet/programming_basics) go to the `notebooks` directory
 2. Click on the `dog_simulation.ipynb`
 3. Click the small 'Download raw file' icon at the upper left of the notebook preview frame (looks like an arrow pointing down to a horizontal line)
 4. Save the notebook locally somewhere you will be able to easily find it again
@@ -46,6 +46,10 @@ A Vocareum cloud virtual machine is provided to Fullstack students. You can run 
 3. Click 'Load BC Jupyter Lab in a new window', then start your Vocareum environment
 4. Once the Jupyter lab interface has loaded, upload the notebook file by clicking the 'Upload Files' icon at the top of the file browser (looks like a arrow pointing up from a horizontal line)
 5. Click on the notebook in the file browser to open the notebook
+6. You can now:
+   - Read through the markdown cells (text sections)
+   - Run code cells by clicking the **▶️ Run** button next to each cell or pressing `Shift + Enter`
+   - Experiment with the code by making changes
 
 
 ### Option 2: Using GitHub Codespaces
@@ -70,18 +74,15 @@ GitHub Codespaces provides a complete, cloud-based development environment with 
 
 1. In the VS Code file explorer (left sidebar), navigate to the `notebooks` folder
 2. Click on `dog_simulation.ipynb` to open it
-3. VS Code will automatically detect it's a Jupyter notebook
-4. The Python kernel should be selected automatically
-5. You can now:
+3. You can now:
    - Read through the markdown cells (text sections)
    - Run code cells by clicking the **▶️ Run** button next to each cell or pressing `Shift + Enter`
    - Experiment with the code by making changes
 
 **Note:** All dependencies are pre-installed in the codespace, so you can start coding immediately!
 
----
 
-### Option 2: Local Development
+### Option 3: Local Development
 
 Follow these step-by-step instructions to set up the repository on your local machine. Don't worry if you're new to Git or Jupyter - we'll walk through everything!
 
@@ -163,9 +164,7 @@ A virtual environment keeps your project dependencies isolated from other Python
 
 1. In the VS Code file explorer, navigate to the `notebooks` folder
 2. Click on `dog_simulation.ipynb` to open it
-3. VS Code will automatically detect it's a Jupyter notebook
-4. If prompted to select a kernel, choose the Python interpreter from your virtual environment (it should show something like `Python 3.x.x ('venv': venv)`)
-5. You can now:
+3. You can now:
    - Read through the markdown cells (text sections)
    - Run code cells by clicking the **▶️ Run** button next to each cell or pressing `Shift + Enter`
    - Experiment with the code by making changes
@@ -191,10 +190,6 @@ A virtual environment keeps your project dependencies isolated from other Python
 **Windows users seeing security or script execution errors?**
 - If you see errors about "running scripts is disabled" or security policies when activating the virtual environment, make sure you're using a **Command Prompt** (cmd) terminal, not PowerShell
 - In VS Code, you can change your default terminal by clicking the dropdown arrow next to the **+** icon in the terminal panel and selecting **"Command Prompt"**
-
-**Import errors?**
-- Make sure you've activated your virtual environment before running `pip install -r requirements.txt`
-- Try running `pip list` to see if `ipykernel` is installed
 
 **Jupyter extension not working?**
 - Try reloading VS Code: **View** → **Command Palette** → **"Developer: Reload Window"**
